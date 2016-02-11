@@ -15,8 +15,8 @@ $converter->parse('PT20H'); // Returns 72000
 $converter->parse('PT6M4S'); // Returns 364
 
 $converter->compose(8); // Returns PT8S
-$converter->composer(300); // Returns PT5M
-$converter->composer(7200); // Returns PT20H
+$converter->compose(300); // Returns PT5M
+$converter->compose(7200); // Returns PT20H
 $converter->compose(364); //Returns PT6M4S
 
 $converter->parse('P5W'); // Returns 3024000
